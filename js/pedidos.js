@@ -11,8 +11,6 @@ Descripcion:Un pedido consta de los sguientes:
 - Una dirección de facturación
 
 */
-
-
 function Pedido(fechaPedido, totalArticulos, totalPedido, direccionEntrega, direccionFacturación){
 	this.fechaPedido = fechaPedido;
 	this.totalArticulos = totalArticulos;
